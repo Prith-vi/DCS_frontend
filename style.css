@@ -84,3 +84,124 @@
  top: 17%;
  left: 7%;
 }
+.hero_main{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero_main h1{
+  position: relative;
+  font-size: 50px;
+  color: #000000;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 400;
+  left: -3%;
+}
+.hero_main_search{
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 68%;
+  height: 22%;
+  /*background-color: thistle;*/
+  color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.hero_main_search_item{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-right: solid 2px #000000;
+}
+.hero_main_search_item:has(#yacht-type){
+  border-right: none;
+}
+.hero_main_search input{
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.hero_main_search ::placeholder{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.search-btn{
+  position: relative;
+  width: 5%;
+  height: 53%;
+  background-color: rgb(20, 20, 232);
+  color: rgb(35, 33, 33);
+  border-radius: 4px;
+  border: none;
+  left: 25px;
+  font-size: 25px;
+  font-weight: 100;
+}
+.hero_main_content{
+  width: 100%;
+  height: 100px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_main_content h1{
+  font-size: 35px;
+  font-weight: 100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hero_main_content_image{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aliceblue;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.hero_main_content_image1{
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  width: 100%;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.hero_main_content_image_selection{
+  width: 100%;
+  height: 100px;
+  background-color:aliceblue;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.hero_main_content_selection{
+  width: 12%;
+  height: 45%;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ border-color: #13338b ;
+ border-radius: 3px;
+ background-color: aliceblue;
+ color:#13338b ;
+ border-width: 1px;
+}
+.hero_main_content_selection:hover{
+ background-color: aquamarine;
+ box-shadow:5px 20% rgb(0, 0, 0)
+}
