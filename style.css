@@ -19,6 +19,7 @@
   margin: 0 50px 0 0;
 }
 .nav-bar_bttns button{
+  padding: 10px 15px;
   background: none;
   border: none;
   color: white;
@@ -35,6 +36,7 @@
   background-color: aliceblue;
   color: #172984e2;
   border-radius: 5px;
+  box-shadow: 6px 3px 5px #385bda96;
 }
 .Hero_page{
   width: 100%;
@@ -77,6 +79,7 @@
   text-align: center;
   bottom: -2%;
   left: 8%;
+  text-shadow: 6px 3px 5px #f5f58e;
 }
 .Hero_page button{
  position: relative;
@@ -147,6 +150,12 @@
   left: 25px;
   font-size: 25px;
   font-weight: 100;
+}
+.search-btn:hover{
+  transition: 0.5s;
+  background-color: rgb(67, 175, 211);
+  color: white;
+  box-shadow: 4px 8px 10px rgb(0, 0, 0);
 }
 .hero_main_content{
   width: 100%;
@@ -247,6 +256,7 @@
 .hero_main_charter_footer p {
   font-size: 20px;
   color: #000000;
+  text-shadow: 6px 2px 4px #13e299a5;
 }
 .hero_main_charter_footer button{
   background-color: transparent;
@@ -280,6 +290,9 @@
   font-weight: 100;
   gap: 25px;
   margin-top: 30px;
+}
+.why_we_bttn:hover,.why_we_bttn1:hover{
+  text-shadow: 5px 3px 5px rgb(1, 1, 1);
 }
 .why_we_text h1{
   font-size: 48px;
@@ -319,6 +332,10 @@
   font-size: 26px;
   cursor: pointer;
   margin-top: 15px;
+}
+.why_we_bttn2 a{
+  text-decoration: none;
+  color: white;
 }
 .why_we_bttn2:hover{
   background-color: rgb(65, 102, 108);
