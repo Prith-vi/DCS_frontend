@@ -567,16 +567,13 @@
 }
 
 @media (min-width: 600px) and (max-width: 900px){
-  .nav-bar{
+   .nav-bar{
   position: absolute;
   width: 100%;
   height: 5vh;
-  display: flex;
-  align-items: center;
-  justify-content:center;
   padding: 0 5px ;
   z-index: 3;
-  }
+}
   .nav-bar_logo{
   margin: 0 10px 0 0;
 }
@@ -589,26 +586,14 @@
 }
 .nav-bar_bttns button{
   padding: 2px 3px;
-  background: none;
-  border: none;
-  color: white;
   font-size: 10px;
-  font-weight: 5;
   margin: 0 6px 0 0;
-  cursor: pointer;
 }
 .nav-bar_bttns .fa-dollar-sign{
   color: white;
   font-size: 10px;
   margin: 0 6px 0 0;;
 }
-.nav-bar_bttns button:hover{
-  background-color: aliceblue;
-  color: #172984e2;
-  border-radius: 3px;
-  box-shadow: 3px 2px 4px #385bda96;
-}
-
 .Hero_page{
   width: 100vw;
   height: 30vh;
@@ -621,13 +606,9 @@
 }
 .Hero_page h1{
   position: relative;
-  color: rgb(26, 73, 145);
   font-size: 30px;
-  font-weight: 900;
-  text-align: center;
   bottom: -2%;
   left: 8%;
-  text-shadow: 6px 3px 5px #f5f58e;
 }
 .Hero_page button{
  position: relative;
@@ -647,30 +628,15 @@
   bottom: 12%;
 }
 .hero_main_search{
-  display: flex;
-  margin-top: 18px;
-  justify-content: center;
-  align-items: center;
   width: 78%;
   height: 60px;
-  color: #000000;
-  border-style: solid;
-  border-width: 2px;
-  border-radius: 5px;
 }
 .hero_main_search_item{
-  display: flex;
   width: 20%;
-  flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-right: solid 2px #000000;
 }
 
 .hero_main_search ::placeholder{
-  color: #000000;
   font-size: 14px;
-  font-weight: 500;
 }
 .search-btn{
   position: relative;
