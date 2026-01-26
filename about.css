@@ -343,6 +343,14 @@
   font-weight: 100;
   margin-top: 8px;
 }
+.charter_types p:hover, .dest_aval p:hover{
+  transition: 0.2s;
+  background-color: #13338b;
+  cursor: pointer;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
 .footer_logo img{
   position: relative;
   width: 200px;
