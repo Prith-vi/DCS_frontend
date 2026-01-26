@@ -286,8 +286,8 @@
 
 .footer{
   display: flex;
-  height: 500px;
-  width: 100%;
+  height: 65vh;
+  width: 100vw;
   flex-direction: row;
   background-color: aliceblue;
 }
@@ -387,8 +387,8 @@
   transform: scale(1.6);
 }
 .copyright{
-  width: 100%;
-  height: 75px;
+  width: 100vw;
+  height: 10vh;
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:#404142;
