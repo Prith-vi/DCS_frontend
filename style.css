@@ -567,6 +567,9 @@
 }
 
 @media (min-width: 600px) and (max-width: 900px){
+  .mobile_layout{
+    display: none;
+   }
    .nav-bar{
   position: absolute;
   width: 100%;
@@ -1159,6 +1162,297 @@
 .hero_main_charter_footer button:hover{
   background-color: rgb(64, 195, 222);
   box-shadow: 2px 5px 5px rgb(0, 0, 0);
+}
+.why_we{
+  position: relative;
+  bottom: 75vm;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  height: 60vh;
+  background-color: #171652;
+  align-items: center;
+}
+.why_we_text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  gap: 25px;
+  margin-top: 30px;
+}
+.why_we_bttn:hover,.why_we_bttn1:hover{
+  text-shadow: 5px 3px 5px rgb(1, 1, 1);
+}
+.why_we_text h1{
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  padding-bottom: 15px;
+}
+.why_we_bttn{
+  position: relative;
+  background-color: #171652;
+  border:none;
+  width: 600px;
+  height: 48px;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 15px;
+  border-bottom: rgb(104, 101, 101) 0.1px solid;
+}
+.why_we_bttn1{
+  background-color: #171652;
+  border:none;
+  width: 600px;
+  height: 28px;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.why_we_bttn2{
+  background-color: #171652;
+  border: 1px solid white;
+  border-radius: 6px;
+  width: 400px;
+  height: 68px;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.why_we_bttn2 a{
+  text-decoration: none;
+  color: white;
+}
+.why_we_bttn2:hover{
+  background-color: rgb(65, 102, 108);
+  box-shadow: 10px 8px 10px rgb(0, 0, 0);
+}
+.why_we_image img{
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 8px 10px rgb(0, 0, 0);
+}
+.create_plan{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.create_plan p{
+  position: relative;
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 100;
+  color: #13338b;
+  top: 20px;
+} 
+.create_plan button{
+  position: relative;
+  background-color: rgb(9, 78, 215);
+  border-radius: 5px;
+  border-width: 1px;
+  color: #eff3ff ;
+  font-size: 16px;
+  padding: 12px 25px;
+  cursor: pointer;
+  top: 20px;
+  box-shadow: 10px 8px 2px rgb(0, 0, 0);
+} 
+.create_plan button:hover{
+  background-color: rgb(10, 94, 123);
+}
+.subscription{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #171652;
+  gap: 50px;
+  color: white;
+}
+.subscription input{
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  color: #000000;
+  background-color: rgba(237, 225, 225, 0.773);
+  margin-left: 65px;
+}
+.subscription input:hover{
+  box-shadow: 10px 8px 10px rgb(0, 0, 0);
+}
+.subscription_bttn:hover{
+  background-color:cadetblue ;
+}
+.subscription input::placeholder{
+  color: #000000;
+}
+.subscription button{
+  position: relative;
+  background-color: rgb(9, 78, 215);
+  border-radius: 5px;
+  border-width: 1px;
+  height: 41.5px;
+  width: 100px;
+  color: #eff3ff ;
+  font-size: 16px;
+  cursor: pointer;
+  left: 100x;
+  top: 1px;
+} 
+.subscription_input p{
+  margin-top: 30px;
+  font-size: 16px;
+  margin-left: 60px;
+}
+.subscription_details h1{
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.subscription_details p{
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+.footer{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  flex-direction: row;
+  background-color: aliceblue;
+}
+.footer_logo{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height:500px ;
+  justify-content: center;
+  align-items: center;
+}
+.dest_aval{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.dest_aval h2{
+  position: relative;
+  font-size: 34px;
+  font-weight: 100;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  bottom: 50px;
+}
+.dest_aval p{
+  position: relative;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  margin-top:8px;
+  bottom: 30px;
+}
+.charter_types{
+  display: flex;
+  flex-direction: column ;
+  width: 40%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.charter_types h2{
+  font-size: 34px;
+  font-weight: 100;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 15px;
+}
+.charter_types p{
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  margin-top: 8px;
+}
+.charter_types p:hover, .dest_aval p:hover{
+  transition: 0.2s;
+  background-color: #13338b;
+  cursor: pointer;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.footer_logo img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  bottom: 70px;
+}
+.footer_logo_details p{
+  position: relative;
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  height: 60px;
+  padding: 12px 25px;
+  bottom: 50px;
+  left: 73px;
+}
+.footer_logo_details a{
+  margin-top: 15px;
+  position: relative;
+  font-size: 20px;
+  color: rgb(18, 63, 119);
+  text-decoration: none;
+  padding-left: 10px;
+  cursor: pointer;
+  bottom: 40px;
+  left: 90px;
+}
+.footer_logo_details a:hover{
+  text-decoration: underline;
+}
+.follow_ons{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  font-size: 25px;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.follow_ons i:hover{
+  color: rgb(18, 63, 119);
+  cursor: pointer;
+  transform: scale(1.6);
+}
+.copyright{
+  width: 100vw;
+  height: 75px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#404142;
+}
+.copyright p{
+  position: relative;
+  top:30px;
+  padding-left: 25px;
 }
 }
 
