@@ -7,13 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 .nav-bar{
+  position: absolute;
   width: 100vw;
   height: 10vh;
-  background-color: #395e83e1;
   display: flex;
   align-items: center;
   justify-content:center;
   padding: 0 20px ;
+  z-index: 3;
 }
 .nav-bar_logo{
   margin: 0 50px 0 0;
